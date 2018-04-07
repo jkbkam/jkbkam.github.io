@@ -1,1 +1,16 @@
-css
+body {
+    font-family: Arial, sans-serif;
+}
+.nav {
+    height: 70px;
+    background-color: gray;
+    position: fixed;
+    z-index: 100;
+}
+.nav a {
+    text-decoration: none;
+  }
+.hero {
+    height: 600px;
+    background-color: red;
+}
