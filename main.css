@@ -1,4 +1,5 @@
 body {
+    background-color: grey;
     font-family: Passion One, Arial, sans-serif;
     color: grey;
     }
@@ -6,7 +7,9 @@ body {
 /*************** MENU ********************/
 
 .nav {
-       border-bottom: grey solid 1px;
+    margin: 5px;
+    background-color: white;
+    border-bottom: grey solid 1px;
     font-size: 1.5em;
     text-align: right;
     height: 70px;
@@ -51,12 +54,15 @@ label {
     }
 
     .menu {
+        background-color: white;
         text-align: center;
         width: 100%;
         display: none;
+        z-index: 1;
     }
 
     .menu a {
+        background-color: white;
         display: block;
         border-bottom: grey solid 1px;
         margin: 0;
@@ -68,19 +74,23 @@ label {
 }
 /*************** HERO ********************/
 .hero {
-    width: 100%;
+    background-color: white;
+    margin: 5px;
+    height: 600px;
+}
+.hero-logo {
+    width: 50%;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: center;
 }
 .hero-img {
-    color: grey;
-    float: left;
-    }
-.hero-logo {
-width: 50%;
-    margin: 50px auto;
+    display: inline-block;
+    margin-right: 20px;
 }
 .hero-text {
-    display: block;
-    height: 200px;
-   vertical-align: auto;
-
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    display: inline-block;
 }
