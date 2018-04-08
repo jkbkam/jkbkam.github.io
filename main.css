@@ -2,18 +2,22 @@ body {
     background-color: #c2c2c2;
     font-family: Open Sans, Arial, sans-serif;
     color: grey;
+    margin: 0;
     }
 
 /*************** MENU ********************/
 
 .nav {
-    margin: 5px;
+    top: 0;
+    margin: 0;
     background-color: white;
     font-size: 1em;
     text-align: right;
     height: 70px;
     line-height: 70px;
-  }
+    width: 100%;
+    position: fixed;
+    }
 .logo {
     margin-left: 30px;
 
@@ -76,7 +80,7 @@ label {
     background-image: url(img/background.jpg);
     background-size: cover;
     background-position: center;
-    margin: 5px;
+    margin: 70px 0 0 0;
     height: 600px;
    }
 .hero-logo {
@@ -100,11 +104,11 @@ label {
 
 .about {
     background-color: white;
-    margin: 5px;
     text-align: center;
+    border-bottom: grey 1px solid;
 }
 .about-h1 {
-    padding-top: 30px;
+    padding-top: 70px;
     margin: 0;
 }
 .about-container {
@@ -134,11 +138,11 @@ label {
 
 .projects {
     background-color: white;
-    margin: 5px;
     text-align: center;
+    border-bottom: grey 1px solid;
 }
 .proj-h1 {
-    padding-top: 30px;
+    padding-top: 70px;
     margin: 0;
 }
 .proj {
@@ -159,11 +163,18 @@ label {
 .sample:hover {
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.15);
 }
+
+
+/*************** PROJECTS ********************/
+
 .contact {
     text-align: center;
-    background-color: white;
+    background-image: url("img/grass.jpg");
+    background-position: center;
+    background-size: cover;
      text-decoration: none;
-     margin: 5px;
+    height: 600px;
+
 }
 .contact a {
     text-decoration: none;
@@ -181,6 +192,6 @@ label {
     color: forestgreen;
 }
 .contact-h1 {
-    padding-top: 30px;
+    padding-top: 70px;
     margin: 0;
 }
