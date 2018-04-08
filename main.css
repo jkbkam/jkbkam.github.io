@@ -9,7 +9,7 @@ body {
 .nav {
     margin: 5px;
     background-color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: right;
     height: 70px;
     line-height: 70px;
@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     color: gray;
     margin: 0 20px;
-    line-height: 70px;
+    line-height: 30px;
 }
 
 .menu a:hover {
@@ -64,15 +64,24 @@ label {
     #toggle:checked + .menu {
         display: block;
     }
+
+    .about-text {
+        width: 90%;
+    }
+    .about-container {
+        width: 80%;}
 }
 /*************** HERO ********************/
 .hero {
-    background-color: white;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 5px;
+    height: 600px;
    }
 .hero-logo {
     width: 50%;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 200px;
     margin: 0 auto;
     text-align: center;
@@ -83,7 +92,7 @@ label {
     margin-right: 20px;
 }
 .hero-text {
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 0.1em;
     display: inline-block;
 }
@@ -149,4 +158,29 @@ label {
 }
 .sample:hover {
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.15);
+}
+.contact {
+    text-align: center;
+    background-color: white;
+     text-decoration: none;
+     margin: 5px;
+}
+.contact a {
+    text-decoration: none;
+    color: grey;
+}
+.contact-links {
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 50px auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact a:hover {
+    color: forestgreen;
+}
+.contact-h1 {
+    padding-top: 30px;
+    margin: 0;
 }
