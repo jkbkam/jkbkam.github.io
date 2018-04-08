@@ -73,3 +73,10 @@ label {
     width: 30%;
     margin: 50px auto;
 }
+.hero-logo {
+    text-align: center;
+    float: left;
+}
+.hero-text {
+    text-align: center;
+}
