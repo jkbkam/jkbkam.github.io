@@ -1,16 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-}
+    font-family: Passion One, Arial, sans-serif;
+    }
+
+/*************** MENU ********************/
+
 .nav {
+       border-bottom: grey solid 1px;
+    font-size: 1.5em;
+    text-align: right;
     height: 70px;
-    background-color: gray;
-    position: fixed;
-    z-index: 100;
-}
-.nav a {
-    text-decoration: none;
+    line-height: 70px;
+
   }
+.logo {
+    margin-left: 30px;
+
+}
+.menu {
+    margin: 0 30px 0 0;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 20px;
+    line-height: 70px;
+}
+
+.menu a:hover {
+    color: forestgreen;
+}
+
+label {
+    color: grey;
+    margin: 0 10px 40px 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    label {
+        display: block;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: grey solid 1px;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+/*************** HERO ********************/
 .hero {
-    height: 600px;
-    background-color: red;
+    width: 100%;
+}
+.hero-img {
+    width: 30%;
+    margin: 50px auto;
 }
