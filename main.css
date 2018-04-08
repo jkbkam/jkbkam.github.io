@@ -141,10 +141,6 @@ label {
     flex-wrap: wrap;
     justify-content: center;
 }
-.sample img {
-    width: 350px;
-    height: 250px;
-}
 .sample {
     margin: 5px;
     background-color: #c2c2c2;
