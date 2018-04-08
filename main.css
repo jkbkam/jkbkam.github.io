@@ -133,7 +133,7 @@ label {
     margin: 0;
 }
 .proj {
-    width: 60%;
+    width: 90%;
     padding-top: 150px;
     padding-bottom: 200px;
     margin: 0 auto;
@@ -141,9 +141,16 @@ label {
     flex-wrap: wrap;
     justify-content: center;
 }
+.sample img {
+    width: 350px;
+    height: 250px;
+}
 .sample {
     margin: 5px;
     background-color: #c2c2c2;
-    width:300px;
+    width: 350px;
     height: 250px;
+}
+.sample:hover {
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.15);
 }
