@@ -1,7 +1,7 @@
 body {
     font-family: Open Sans, Arial, sans-serif;
     color: grey;
-    margin: 0;
+    margin: 0 10px;
     }
 
 /*************** MENU ********************/
@@ -19,7 +19,6 @@ body {
     }
 .logo {
     margin-left: 30px;
-
 }
 .menu {
     margin: 0 30px 0 0;
@@ -31,11 +30,9 @@ body {
     margin: 0 20px;
     line-height: 30px;
 }
-
 .menu a:hover {
     color: forestgreen;
 }
-
 label {
     color: grey;
     margin: 0 10px 0 0;
@@ -43,17 +40,15 @@ label {
     line-height: 70px;
     display: none;
 }
-
 #toggle {
     display: none;
 }
-
-
 /*************** HERO ********************/
 .hero {
     background: url("img/background.jpg") center;
     margin: 70px 0 0 0;
     height: 700px;
+    width: 100%;
    }
 .hero-logo {
     width: 50%;
@@ -78,6 +73,7 @@ label {
     background-color: white;
     text-align: center;
     border-bottom: grey 1px solid;
+    width: 100%;
 }
 .about-h1 {
     padding-top: 70px;
@@ -116,6 +112,7 @@ label {
     background-color: white;
     text-align: center;
     border-bottom: grey 1px solid;
+    width: 100%;
 }
 .proj-h1 {
     padding-top: 70px;
@@ -130,6 +127,15 @@ label {
     flex-wrap: wrap;
     justify-content: center;
 }
+.sample1 {
+    background-image: url("img/sample1.png");
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    min-width: 350px;
+}
 .sample {
     margin: 5px;
     background-color: #c2c2c2;
@@ -137,7 +143,7 @@ label {
     height: 250px;
     min-width: 350px;
 }
-.sample:hover {
+.sample:hover, .sample1:hover {
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -151,6 +157,7 @@ label {
     background-size: cover;
     text-decoration: none;
     height: 700px;
+    width: 100%;
 }
 .contact a {
     text-decoration: none;
@@ -192,6 +199,9 @@ label {
     }
     .about-text {
         width: 95%;
+    }
+    body {
+        width: 100%;
     }
 
 }
