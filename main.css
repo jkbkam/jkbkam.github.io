@@ -74,7 +74,6 @@ label {
 .about {
     background-color: white;
     text-align: center;
-    border-bottom: grey 1px solid;
     width: 100%;
 }
 .about-h1 {
@@ -154,7 +153,7 @@ label {
 
 .contact {
     text-align: center;
-    background-image: url("img/grass.jpg");
+    background-image: url("img/trees.jpg");
     background-position: center;
     background-size: cover;
     text-decoration: none;
@@ -163,7 +162,7 @@ label {
 }
 .contact a {
     text-decoration: none;
-    color: grey;
+    color: #c1c1c1;
 }
 .contact-links {
     font-size: 3em;
@@ -179,6 +178,7 @@ label {
 .contact-h1 {
     padding-top: 70px;
     margin: 0;
+    color: #C1C1C1;
 }
 
 @media only screen and (max-width: 500px) {
