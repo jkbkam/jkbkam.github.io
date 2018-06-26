@@ -137,6 +137,15 @@ label {
     height: 250px;
     min-width: 350px;
 }
+.sample2 {
+    background-image: url("img/sample2.png");
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    min-width: 350px;
+}
 .sample {
     margin: 5px;
     background-color: #c2c2c2;
