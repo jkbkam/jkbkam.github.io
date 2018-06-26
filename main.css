@@ -143,6 +143,13 @@ label {
     width: 350px;
     height: 250px;
     min-width: 350px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.sample.active {
+    opacity: 1;
+    transition: all .5s;
 }
 .sample:hover, .sample1:hover {
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.15);

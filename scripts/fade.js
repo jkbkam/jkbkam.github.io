@@ -1,4 +1,4 @@
-var sliderImages = document.querySelectorAll('.about-container');
+var sliderImages = document.querySelectorAll('.sample');
 
 function checkSlide() {
     sliderImages.forEach(function(sliderImage) {
