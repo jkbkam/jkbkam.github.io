@@ -55,6 +55,10 @@
 
 </div>
 
+<form method="post" action="submit">
+    <input name="A" value="A" type="text" style="display: none"/>
+</form>
+
 
 <div class="contact" id="contact">
     <h1 class="contact-h1">Interested? Contact me.</h1>
@@ -64,17 +68,8 @@
         <a href="https://www.linkedin.com/in/jkb-kam/"><i class="fab fa-linkedin"></i></a>
     </div>
 </div>
-<script>
-    window.addEventListener('scroll', function (event) {
-        //console.log(event)
-
-        //console.log(window.pageYOffset)
-        document.querySelector('.hero-logo').style.paddingTop = ( 150 + window.pageYOffset * 0.5) +'px'
-        //document.querySelector('.hero').style.backgroundPositionX = (window.pageYOffset * 1) +'px'
-
-    })
-</script>
-
+<script src="jquery-3.3.1.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
 
